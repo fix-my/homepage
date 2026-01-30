@@ -1,0 +1,17 @@
+{
+  "title": "합계가 갱신되지 않는 문제",
+  "situation": "아이템을 추가해도 합계가 0으로 고정되어 있습니다. 상태는 바뀌는데 합계 계산이 반영되지 않습니다.",
+  "goals": [
+    "아이템을 추가하면 합계가 즉시 반영되도록 수정하세요"
+  ],
+  "environment": {
+    "type": "react",
+    "dependencies": {
+      "react": "^18.0.0",
+      "react-dom": "^18.0.0"
+    }
+  },
+  "author": {
+    "github": "SeoJaeWan"
+  }
+}

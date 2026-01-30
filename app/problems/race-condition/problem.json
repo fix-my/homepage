@@ -1,0 +1,19 @@
+{
+  "id": "race-condition",
+  "title": "검색 결과가 뒤죽박죽이에요",
+  "situation": "검색창에 'react'를 입력하고 바로 'vue'로 바꿨는데, 'vue' 결과가 먼저 나오고 나중에 'react' 결과가 덮어씌워집니다.",
+  "goals": [
+    "빠르게 검색어를 변경해도 항상 마지막 검색어의 결과만 표시되도록 수정하세요",
+    "이전 검색 요청은 취소되어야 합니다"
+  ],
+  "environment": {
+    "type": "react",
+    "dependencies": {
+      "react": "^18.0.0",
+      "react-dom": "^18.0.0"
+    }
+  },
+  "author": {
+    "github": "SeoJaeWan"
+  }
+}

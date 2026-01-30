@@ -1,0 +1,47 @@
+{
+  "react": {
+    "results": [
+      "React 공식 문서",
+      "React Hooks 가이드",
+      "React Tutorial",
+      "React 18 새로운 기능",
+      "React vs Vue 비교"
+    ]
+  },
+  "vue": {
+    "results": [
+      "Vue.js 공식 문서",
+      "Vue 3 Composition API",
+      "Vue Router 가이드",
+      "Vue vs React 비교",
+      "Vue 상태 관리 (Pinia)"
+    ]
+  },
+  "angular": {
+    "results": [
+      "Angular 공식 문서",
+      "Angular CLI 사용법",
+      "Angular RxJS 가이드",
+      "Angular vs React 비교",
+      "Angular 최신 버전 업데이트"
+    ]
+  },
+  "javascript": {
+    "results": [
+      "JavaScript MDN 문서",
+      "ES2024 새로운 기능",
+      "JavaScript 비동기 프로그래밍",
+      "JavaScript 디자인 패턴",
+      "JavaScript 성능 최적화"
+    ]
+  },
+  "typescript": {
+    "results": [
+      "TypeScript 핸드북",
+      "TypeScript 타입 시스템",
+      "TypeScript 유틸리티 타입",
+      "TypeScript와 React",
+      "TypeScript 고급 기법"
+    ]
+  }
+}

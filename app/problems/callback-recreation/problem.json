@@ -1,0 +1,18 @@
+{
+  "title": "memo를 썼는데도 모든 버튼이 리렌더돼요",
+  "situation": "버튼에 React.memo를 적용했는데, 하나의 버튼을 클릭하면 콘솔에 모든 버튼이 리렌더된다고 출력됩니다. memo가 제대로 동작하지 않는 것 같아요.",
+  "goals": [
+    "버튼 클릭 시 해당 버튼과 이전에 선택된 버튼만 리렌더되도록 수정하세요",
+    "콘솔에서 불필요한 리렌더 메시지가 출력되지 않아야 합니다"
+  ],
+  "environment": {
+    "type": "react",
+    "dependencies": {
+      "react": "^18.0.0",
+      "react-dom": "^18.0.0"
+    }
+  },
+  "author": {
+    "github": "SeoJaeWan"
+  }
+}

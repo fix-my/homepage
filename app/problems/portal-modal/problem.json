@@ -1,0 +1,17 @@
+{
+  "title": "모달이 앱 영역에 갇히는 문제",
+  "situation": "모달을 열면 레이아웃 안쪽에 갇혀서 오버레이가 제대로 보이지 않습니다. 모달이 앱 루트 밖으로 렌더되어야 합니다.",
+  "goals": [
+    "모달이 document.body 아래에 렌더되도록 수정하세요"
+  ],
+  "environment": {
+    "type": "react",
+    "dependencies": {
+      "react": "^18.0.0",
+      "react-dom": "^18.0.0"
+    }
+  },
+  "author": {
+    "github": "SeoJaeWan"
+  }
+}

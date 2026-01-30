@@ -1,0 +1,17 @@
+{
+  "title": "에러가 발생하면 화면이 깨져요",
+  "situation": "카운터를 올리다가 특정 값에서 오류가 발생하면 화면 전체가 깨집니다. 오류 상황에서도 사용자가 안내를 받을 수 있어야 합니다.",
+  "goals": [
+    "오류가 발생하면 대체 UI가 표시되도록 수정하세요"
+  ],
+  "environment": {
+    "type": "react",
+    "dependencies": {
+      "react": "^18.0.0",
+      "react-dom": "^18.0.0"
+    }
+  },
+  "author": {
+    "github": "SeoJaeWan"
+  }
+}

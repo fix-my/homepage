@@ -1,0 +1,17 @@
+{
+  "title": "페이지가 멈춰버렸어요",
+  "situation": "대시보드 페이지를 만들었는데, 페이지를 열면 브라우저가 멈추고 'Too many re-renders' 에러가 발생합니다. 사용자 정보를 불러와서 화면에 표시하려고 했을 뿐인데 무엇이 문제일까요?",
+  "goals": [
+    "무한 렌더링을 해결하여 사용자 정보가 정상적으로 표시되도록 수정하세요"
+  ],
+  "environment": {
+    "type": "react",
+    "dependencies": {
+      "react": "^18.0.0",
+      "react-dom": "^18.0.0"
+    }
+  },
+  "author": {
+    "github": "SeoJaeWan"
+  }
+}

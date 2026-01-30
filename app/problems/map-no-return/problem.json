@@ -1,0 +1,17 @@
+{
+  "title": "리스트가 비어있어요",
+  "situation": "상품 목록 페이지를 만들었습니다. console.log로 확인하면 데이터는 분명히 있는데, 화면에는 상품이 하나도 표시되지 않습니다. 에러도 없고 그냥 빈 화면만 나옵니다.",
+  "goals": [
+    "상품 목록이 화면에 정상적으로 표시되도록 수정하세요"
+  ],
+  "environment": {
+    "type": "react",
+    "dependencies": {
+      "react": "^18.0.0",
+      "react-dom": "^18.0.0"
+    }
+  },
+  "author": {
+    "github": "SeoJaeWan"
+  }
+}

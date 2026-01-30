@@ -1,0 +1,478 @@
+{
+  "version": "1.0",
+  "lastUpdated": "2026-01-30T15:04:00.622Z",
+  "problems": [
+    {
+      "id": "array-push-mutation",
+      "folderName": "array-push-mutation",
+      "title": "배열에 추가해도 화면이 안 바뀌어요",
+      "situation": "메모 앱을 만들고 있습니다. 새 메모를 추가하면 console.log로는 배열에 추가된 것이 확인되는데, 화면에는 반영되지 않습니다. 새로고침하면 그때서야 추가된 메모가 보입니다.",
+      "goals": [
+        "메모를 추가하면 화면에 즉시 반영되도록 수정하세요"
+      ],
+      "environment": {
+        "type": "react",
+        "dependencies": {
+          "react": "^18.0.0",
+          "react-dom": "^18.0.0"
+        }
+      },
+      "author": {
+        "github": "SeoJaeWan"
+      },
+      "category": "react"
+    },
+    {
+      "id": "callback-recreation",
+      "folderName": "callback-recreation",
+      "title": "memo를 썼는데도 모든 버튼이 리렌더돼요",
+      "situation": "버튼에 React.memo를 적용했는데, 하나의 버튼을 클릭하면 콘솔에 모든 버튼이 리렌더된다고 출력됩니다. memo가 제대로 동작하지 않는 것 같아요.",
+      "goals": [
+        "버튼 클릭 시 해당 버튼과 이전에 선택된 버튼만 리렌더되도록 수정하세요",
+        "콘솔에서 불필요한 리렌더 메시지가 출력되지 않아야 합니다"
+      ],
+      "environment": {
+        "type": "react",
+        "dependencies": {
+          "react": "^18.0.0",
+          "react-dom": "^18.0.0"
+        }
+      },
+      "author": {
+        "github": "SeoJaeWan"
+      },
+      "category": "react"
+    },
+    {
+      "id": "context-value-identity",
+      "folderName": "context-value-identity",
+      "title": "컨텍스트 값이 매번 바뀌는 문제",
+      "situation": "카운터를 누를 때마다 테마 버튼도 함께 리렌더됩니다. 테마는 바뀌지 않았는데도 불필요하게 렌더가 발생합니다.",
+      "goals": [
+        "카운터를 클릭해도 테마 버튼이 리렌더되지 않도록 수정하세요",
+        "테마를 변경하면 테마 버튼이 정상적으로 업데이트되어야 합니다"
+      ],
+      "environment": {
+        "type": "react",
+        "dependencies": {
+          "react": "^18.0.0",
+          "react-dom": "^18.0.0"
+        }
+      },
+      "author": {
+        "github": "SeoJaeWan"
+      },
+      "category": "react"
+    },
+    {
+      "id": "controlled-input",
+      "folderName": "controlled-input",
+      "title": "입력이 안 돼요",
+      "situation": "회원가입 폼을 만들었는데, 이메일 입력란에 타이핑을 해도 글자가 입력되지 않습니다. 커서는 깜빡이는데 아무리 키보드를 눌러도 빈 칸 그대로입니다.",
+      "goals": [
+        "이메일과 비밀번호 입력이 정상적으로 동작하도록 수정하세요"
+      ],
+      "environment": {
+        "type": "react",
+        "dependencies": {
+          "react": "^18.0.0",
+          "react-dom": "^18.0.0"
+        }
+      },
+      "author": {
+        "github": "SeoJaeWan"
+      },
+      "category": "react"
+    },
+    {
+      "id": "custom-hook-stale",
+      "folderName": "custom-hook-stale",
+      "title": "useDebounce 훅이 동작하지 않아요",
+      "situation": "검색창에 useDebounce 훅을 적용했는데, 입력을 빠르게 하면 debounce가 제대로 동작하지 않고 이상한 값이 표시됩니다.",
+      "goals": [
+        "useDebounce 훅이 정상적으로 동작하도록 수정하세요",
+        "빠르게 입력해도 마지막 입력값만 debounce되어 표시되어야 합니다"
+      ],
+      "environment": {
+        "type": "react",
+        "dependencies": {
+          "react": "^18.0.0",
+          "react-dom": "^18.0.0"
+        }
+      },
+      "author": {
+        "github": "SeoJaeWan"
+      },
+      "category": "react"
+    },
+    {
+      "id": "derived-state-sync",
+      "folderName": "derived-state-sync",
+      "title": "선택을 바꿔도 폼 값이 갱신되지 않는 문제",
+      "situation": "사용자를 선택하면 입력 폼에 해당 사용자의 이름이 보여야 하는데, 이전 사용자의 이름이 그대로 남아 있습니다.",
+      "goals": [
+        "사용자를 변경하면 입력 폼의 이름이 즉시 갱신되어야 합니다",
+        "입력은 여전히 수정 가능해야 합니다"
+      ],
+      "environment": {
+        "type": "react",
+        "dependencies": {
+          "react": "^18.0.0",
+          "react-dom": "^18.0.0"
+        }
+      },
+      "author": {
+        "github": "SeoJaeWan"
+      },
+      "category": "react"
+    },
+    {
+      "id": "error-boundary",
+      "folderName": "error-boundary",
+      "title": "에러가 발생하면 화면이 깨져요",
+      "situation": "카운터를 올리다가 특정 값에서 오류가 발생하면 화면 전체가 깨집니다. 오류 상황에서도 사용자가 안내를 받을 수 있어야 합니다.",
+      "goals": [
+        "오류가 발생하면 대체 UI가 표시되도록 수정하세요"
+      ],
+      "environment": {
+        "type": "react",
+        "dependencies": {
+          "react": "^18.0.0",
+          "react-dom": "^18.0.0"
+        }
+      },
+      "author": {
+        "github": "SeoJaeWan"
+      },
+      "category": "react"
+    },
+    {
+      "id": "event-listener-leak",
+      "folderName": "event-listener-leak",
+      "title": "리사이즈 리스너가 중복 등록되는 문제",
+      "situation": "리렌더를 여러 번 발생시키면 리사이즈 횟수가 한번에 여러 번 올라갑니다. 리스너가 중복 등록되는 것 같습니다.",
+      "goals": [
+        "리렌더가 반복되어도 리사이즈 이벤트는 한 번만 반영되어야 합니다",
+        "이벤트 리스너가 중복 등록되지 않도록 수정하세요"
+      ],
+      "environment": {
+        "type": "react",
+        "dependencies": {
+          "react": "^18.0.0",
+          "react-dom": "^18.0.0"
+        }
+      },
+      "author": {
+        "github": "SeoJaeWan"
+      },
+      "category": "react"
+    },
+    {
+      "id": "fetch-user-data",
+      "folderName": "fetch-user-data",
+      "title": "사용자 목록이 표시되지 않는 문제",
+      "situation": "서버에서 사용자 목록을 불러와서 화면에 표시하려고 하는데, '[object Promise]'라는 이상한 텍스트만 표시됩니다. API는 정상적으로 작동하는데 무엇이 문제일까요?",
+      "goals": [
+        "사용자 목록이 올바르게 표시되도록 수정하세요"
+      ],
+      "environment": {
+        "type": "react",
+        "dependencies": {
+          "react": "^18.0.0",
+          "react-dom": "^18.0.0"
+        }
+      },
+      "author": {
+        "github": "SeoJaeWan"
+      },
+      "category": "react"
+    },
+    {
+      "id": "form-validation-bug",
+      "folderName": "form-validation-bug",
+      "title": "폼 검증이 실시간으로 안돼요",
+      "situation": "회원가입 폼을 만들었는데, 입력할 때 에러 메시지가 바로 안나오고 제출 버튼을 눌러야만 에러가 표시됩니다. 사용자가 입력하면서 바로 피드백을 받을 수 있으면 좋겠어요.",
+      "goals": [
+        "입력할 때마다 실시간으로 유효성 검사가 되도록 수정하세요",
+        "에러가 있으면 즉시 에러 메시지가 표시되어야 합니다"
+      ],
+      "environment": {
+        "type": "react",
+        "dependencies": {
+          "react": "^18.0.0",
+          "react-dom": "^18.0.0"
+        }
+      },
+      "author": {
+        "github": "SeoJaeWan"
+      },
+      "category": "react"
+    },
+    {
+      "id": "infinite-rerender",
+      "folderName": "infinite-rerender",
+      "title": "페이지가 멈춰버렸어요",
+      "situation": "대시보드 페이지를 만들었는데, 페이지를 열면 브라우저가 멈추고 'Too many re-renders' 에러가 발생합니다. 사용자 정보를 불러와서 화면에 표시하려고 했을 뿐인데 무엇이 문제일까요?",
+      "goals": [
+        "무한 렌더링을 해결하여 사용자 정보가 정상적으로 표시되도록 수정하세요"
+      ],
+      "environment": {
+        "type": "react",
+        "dependencies": {
+          "react": "^18.0.0",
+          "react-dom": "^18.0.0"
+        }
+      },
+      "author": {
+        "github": "SeoJaeWan"
+      },
+      "category": "react"
+    },
+    {
+      "id": "interval-cleanup",
+      "folderName": "interval-cleanup",
+      "title": "인터벌이 멈추지 않는 문제",
+      "situation": "타이머를 정지해도 카운터가 계속 올라갑니다. 다시 시작하면 속도가 더 빨라지는 것 같아요.",
+      "goals": [
+        "정지 버튼을 누르면 카운터가 증가하지 않아야 합니다",
+        "다시 시작해도 1초에 1번만 증가해야 합니다"
+      ],
+      "environment": {
+        "type": "react",
+        "dependencies": {
+          "react": "^18.0.0",
+          "react-dom": "^18.0.0"
+        }
+      },
+      "author": {
+        "github": "SeoJaeWan"
+      },
+      "category": "react"
+    },
+    {
+      "id": "key-index-bug",
+      "folderName": "key-index-bug",
+      "title": "삭제하면 엉뚱한 게 사라져요",
+      "situation": "장바구니 페이지를 만들었는데, 첫 번째 상품을 삭제하면 마지막 상품의 수량 입력값이 사라집니다. 분명 첫 번째 상품만 삭제했는데 왜 다른 상품의 입력값이 영향을 받을까요?",
+      "goals": [
+        "상품을 삭제하면 해당 상품만 정확히 삭제되고 다른 상품의 입력 상태가 유지되도록 수정하세요"
+      ],
+      "environment": {
+        "type": "react",
+        "dependencies": {
+          "react": "^18.0.0",
+          "react-dom": "^18.0.0"
+        }
+      },
+      "author": {
+        "github": "SeoJaeWan"
+      },
+      "category": "react"
+    },
+    {
+      "id": "map-no-return",
+      "folderName": "map-no-return",
+      "title": "리스트가 비어있어요",
+      "situation": "상품 목록 페이지를 만들었습니다. console.log로 확인하면 데이터는 분명히 있는데, 화면에는 상품이 하나도 표시되지 않습니다. 에러도 없고 그냥 빈 화면만 나옵니다.",
+      "goals": [
+        "상품 목록이 화면에 정상적으로 표시되도록 수정하세요"
+      ],
+      "environment": {
+        "type": "react",
+        "dependencies": {
+          "react": "^18.0.0",
+          "react-dom": "^18.0.0"
+        }
+      },
+      "author": {
+        "github": "SeoJaeWan"
+      },
+      "category": "react"
+    },
+    {
+      "id": "optimistic-update",
+      "folderName": "optimistic-update",
+      "title": "실패한 좋아요가 롤백되지 않는 문제",
+      "situation": "좋아요를 눌렀을 때 서버 저장이 실패해도 화면에서는 성공한 것처럼 보입니다. 실패 시에는 원래 상태로 되돌아가야 합니다.",
+      "goals": [
+        "저장이 실패하면 좋아요 상태가 롤백되어야 합니다",
+        "실패 메시지가 사용자에게 표시되어야 합니다"
+      ],
+      "environment": {
+        "type": "react",
+        "dependencies": {
+          "react": "^18.0.0",
+          "react-dom": "^18.0.0"
+        }
+      },
+      "author": {
+        "github": "SeoJaeWan"
+      },
+      "category": "react"
+    },
+    {
+      "id": "portal-modal",
+      "folderName": "portal-modal",
+      "title": "모달이 앱 영역에 갇히는 문제",
+      "situation": "모달을 열면 레이아웃 안쪽에 갇혀서 오버레이가 제대로 보이지 않습니다. 모달이 앱 루트 밖으로 렌더되어야 합니다.",
+      "goals": [
+        "모달이 document.body 아래에 렌더되도록 수정하세요"
+      ],
+      "environment": {
+        "type": "react",
+        "dependencies": {
+          "react": "^18.0.0",
+          "react-dom": "^18.0.0"
+        }
+      },
+      "author": {
+        "github": "SeoJaeWan"
+      },
+      "category": "react"
+    },
+    {
+      "id": "race-condition",
+      "folderName": "race-condition",
+      "title": "검색 결과가 뒤죽박죽이에요",
+      "situation": "검색창에 'react'를 입력하고 바로 'vue'로 바꿨는데, 'vue' 결과가 먼저 나오고 나중에 'react' 결과가 덮어씌워집니다.",
+      "goals": [
+        "빠르게 검색어를 변경해도 항상 마지막 검색어의 결과만 표시되도록 수정하세요",
+        "이전 검색 요청은 취소되어야 합니다"
+      ],
+      "environment": {
+        "type": "react",
+        "dependencies": {
+          "react": "^18.0.0",
+          "react-dom": "^18.0.0"
+        }
+      },
+      "author": {
+        "github": "SeoJaeWan"
+      },
+      "category": "react"
+    },
+    {
+      "id": "stale-closure",
+      "folderName": "stale-closure",
+      "title": "타이머가 이상해요",
+      "situation": "5초 카운트다운 타이머를 만들었습니다. 시작 버튼을 누르면 5에서 0까지 1초마다 줄어들어야 하는데, 5에서 4로 한 번 바뀌고 그 뒤로는 계속 4만 표시됩니다. 무엇이 문제일까요?",
+      "goals": [
+        "시작 버튼을 누르면 5부터 0까지 정상적으로 카운트다운되도록 수정하세요"
+      ],
+      "environment": {
+        "type": "react",
+        "dependencies": {
+          "react": "^18.0.0",
+          "react-dom": "^18.0.0"
+        }
+      },
+      "author": {
+        "github": "SeoJaeWan"
+      },
+      "category": "react"
+    },
+    {
+      "id": "state-batch-update",
+      "folderName": "state-batch-update",
+      "title": "카운터가 1씩만 증가하는 문제",
+      "situation": "사용자가 '+3 증가' 버튼을 누르면 카운터가 3씩 증가해야 하는데, 실제로는 1씩만 증가합니다. setState를 3번 호출했는데 왜 1번만 적용될까요?",
+      "goals": [
+        "'+3 증가' 버튼을 클릭하면 카운터가 정확히 3씩 증가하도록 수정하세요"
+      ],
+      "environment": {
+        "type": "react",
+        "dependencies": {
+          "react": "^18.0.0",
+          "react-dom": "^18.0.0"
+        }
+      },
+      "author": {
+        "github": "SeoJaeWan"
+      },
+      "category": "react"
+    },
+    {
+      "id": "suspense-cache",
+      "folderName": "suspense-cache",
+      "title": "Suspense 캐시가 매번 초기화되는 문제",
+      "situation": "카운터를 누를 때마다 사용자 정보가 다시 로딩 상태로 돌아갑니다. 이미 로딩된 데이터가 재사용되지 않는 것 같습니다.",
+      "goals": [
+        "카운터를 클릭해도 로딩 상태로 돌아가지 않도록 수정하세요",
+        "사용자 정보는 한 번 로딩되면 유지되어야 합니다"
+      ],
+      "environment": {
+        "type": "react",
+        "dependencies": {
+          "react": "^18.0.0",
+          "react-dom": "^18.0.0"
+        }
+      },
+      "author": {
+        "github": "SeoJaeWan"
+      },
+      "category": "react"
+    },
+    {
+      "id": "todo-app-complex",
+      "folderName": "todo-app-complex",
+      "title": "복잡한 Todo 앱의 여러 버그",
+      "situation": "Todo 앱을 만들었는데 여러 가지 문제가 있습니다. 1) 완료 버튼을 눌러도 상태가 바뀌지 않고, 2) 삭제 버튼을 누르면 엉뚱한 항목이 삭제되고, 3) 새 할일을 추가해도 목록이 업데이트되지 않습니다.",
+      "goals": [
+        "완료 버튼을 클릭하면 해당 Todo의 상태가 토글되도록 수정하세요",
+        "삭제 버튼을 클릭하면 정확한 Todo가 삭제되도록 수정하세요",
+        "새 할일을 추가하면 목록이 즉시 업데이트되도록 수정하세요"
+      ],
+      "environment": {
+        "type": "react",
+        "dependencies": {
+          "react": "^18.0.0",
+          "react-dom": "^18.0.0"
+        }
+      },
+      "author": {
+        "github": "SeoJaeWan"
+      },
+      "category": "react"
+    },
+    {
+      "id": "useeffect-deps",
+      "folderName": "useeffect-deps",
+      "title": "검색어가 업데이트되지 않는 문제",
+      "situation": "검색창에 입력한 키워드로 실시간 검색을 하려는데, 처음 입력한 검색어로만 검색되고 이후에 검색어를 바꿔도 결과가 업데이트되지 않습니다.",
+      "goals": [
+        "검색어를 변경할 때마다 검색 결과가 실시간으로 업데이트되도록 수정하세요"
+      ],
+      "environment": {
+        "type": "react",
+        "dependencies": {
+          "react": "^18.0.0",
+          "react-dom": "^18.0.0"
+        }
+      },
+      "author": {
+        "github": "SeoJaeWan"
+      },
+      "category": "react"
+    },
+    {
+      "id": "usememo-deps",
+      "folderName": "usememo-deps",
+      "title": "합계가 갱신되지 않는 문제",
+      "situation": "아이템을 추가해도 합계가 0으로 고정되어 있습니다. 상태는 바뀌는데 합계 계산이 반영되지 않습니다.",
+      "goals": [
+        "아이템을 추가하면 합계가 즉시 반영되도록 수정하세요"
+      ],
+      "environment": {
+        "type": "react",
+        "dependencies": {
+          "react": "^18.0.0",
+          "react-dom": "^18.0.0"
+        }
+      },
+      "author": {
+        "github": "SeoJaeWan"
+      },
+      "category": "react"
+    }
+  ]
+}

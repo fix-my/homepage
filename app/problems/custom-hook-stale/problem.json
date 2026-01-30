@@ -1,0 +1,18 @@
+{
+  "title": "useDebounce 훅이 동작하지 않아요",
+  "situation": "검색창에 useDebounce 훅을 적용했는데, 입력을 빠르게 하면 debounce가 제대로 동작하지 않고 이상한 값이 표시됩니다.",
+  "goals": [
+    "useDebounce 훅이 정상적으로 동작하도록 수정하세요",
+    "빠르게 입력해도 마지막 입력값만 debounce되어 표시되어야 합니다"
+  ],
+  "environment": {
+    "type": "react",
+    "dependencies": {
+      "react": "^18.0.0",
+      "react-dom": "^18.0.0"
+    }
+  },
+  "author": {
+    "github": "SeoJaeWan"
+  }
+}
